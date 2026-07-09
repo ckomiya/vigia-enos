@@ -6,6 +6,7 @@ KPI tipo semáforo con el estado puntual más reciente de cada índice.
 import sys
 from datetime import datetime
 from pathlib import Path
+from urllib.parse import quote
 
 import pandas as pd
 import plotly.graph_objects as go
@@ -53,6 +54,31 @@ SEMAFORO_COLOR = {
     "La Niña": COLOR_COLD,
     "Fría": COLOR_COLD,
 }
+
+
+def svg_data_uri(svg: str) -> str:
+    return "data:image/svg+xml," + quote(svg)
+
+
+ICON_EMAIL = svg_data_uri(
+    "<svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' "
+    "viewBox='0 0 24 24' fill='none' stroke='#7A93A6' stroke-width='2' "
+    "stroke-linecap='round' stroke-linejoin='round'>"
+    "<rect x='2' y='4' width='20' height='16' rx='2'/>"
+    "<path d='m22 6-10 7L2 6'/>"
+    "</svg>"
+)
+
+ICON_LINKEDIN = svg_data_uri(
+    "<svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' "
+    "viewBox='0 0 24 24' fill='#7A93A6'>"
+    "<path d='M20.45 20.45h-3.55v-5.57c0-1.33-.02-3.04-1.85-3.04-1.86 "
+    "0-2.14 1.45-2.14 2.94v5.67H9.36V9h3.41v1.56h.05c.48-.9 "
+    "1.63-1.85 3.35-1.85 3.58 0 4.24 2.36 4.24 5.43v6.31zM5.34 "
+    "7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 "
+    "20.45H3.56V9h3.56v11.45z'/>"
+    "</svg>"
+)
 
 
 def get_last_update_label() -> str:
@@ -364,12 +390,37 @@ verse fuerte en RONI pero débil en ICEN, o viceversa.
                             children=build_dashboard_content(load_data()),
                         ),
                     ),
-                    html.P(
-                        "Desarrollado por Christian Gonzales Komiya",
+                    html.Div(
                         style={
-                            "fontSize": "12px", "color": COLOR_TEXT_MUTED,
-                            "textAlign": "center", "marginTop": "32px",
+                            "display": "flex", "alignItems": "center", "justifyContent": "center",
+                            "gap": "16px", "marginTop": "32px",
                         },
+                        children=[
+                            html.Span(
+                                "Desarrollado por Christian Gonzales Komiya",
+                                style={"fontSize": "12px", "color": COLOR_TEXT_MUTED},
+                            ),
+                            html.A(
+                                href="mailto:christian.komiya@gmail.com",
+                                title="christian.komiya@gmail.com",
+                                style={"display": "inline-flex", "alignItems": "center"},
+                                children=html.Img(
+                                    src=ICON_EMAIL,
+                                    style={"width": "16px", "height": "16px", "verticalAlign": "middle"},
+                                ),
+                            ),
+                            html.A(
+                                href="https://www.linkedin.com/in/ckomiya/",
+                                target="_blank",
+                                rel="noopener noreferrer",
+                                title="LinkedIn: ckomiya",
+                                style={"display": "inline-flex", "alignItems": "center"},
+                                children=html.Img(
+                                    src=ICON_LINKEDIN,
+                                    style={"width": "16px", "height": "16px", "verticalAlign": "middle"},
+                                ),
+                            ),
+                        ],
                     ),
                 ],
             ),
