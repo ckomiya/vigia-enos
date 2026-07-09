@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//tmp/**)",
+      "Bash(python3 -c ' *)",
+      "Bash(venv/Scripts/python.exe -c ' *)",
+      "Bash(curl -s -A \"Mozilla/5.0\" -o \"C:/Users/chris/AppData/Local/Temp/claude/d--Projects-fen-meno-del-ni-o-vigia-enos/5ab92f93-3d1d-4b57-a941-9ba3bfa6e638/scratchpad/visor.html\" \"https://busquedas.elperuano.pe/api/visor_html/2530995-1\")",
+      "Bash(venv/Scripts/python.exe -c \"import bs4; print\\(bs4.__version__\\)\")",
+      "Bash(venv/Scripts/python.exe -m pip install beautifulsoup4 lxml)",
+      "Bash(venv/Scripts/python.exe -m pip freeze)"
+    ]
+  }
+}
