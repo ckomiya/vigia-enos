@@ -8,9 +8,8 @@ __pycache__/
 *.py[cod]
 *.egg-info/
 
-# Datos (se regeneran con el ETL, no versionar)
+# Datos crudos (se regeneran con el ETL, no versionar)
 data/raw/
-data/processed/
 
 # Editor / IDE
 .vscode/

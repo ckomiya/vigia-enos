@@ -379,6 +379,7 @@ verse fuerte en RONI pero débil en ICEN, o viceversa.
 
 app = Dash(__name__)
 app.title = "Vigía ENOS"
+server = app.server
 
 app.index_string = """<!DOCTYPE html>
 <html>

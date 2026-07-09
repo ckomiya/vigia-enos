@@ -1,0 +1,918 @@
+season,year,roni,ref_month,evento_roni
+DJF,1950,-1.47,1,La Niña activo
+JFM,1950,-1.27,2,La Niña activo
+FMA,1950,-1.11,3,La Niña activo
+MAM,1950,-1.09,4,La Niña activo
+AMJ,1950,-1.0,5,La Niña activo
+MJJ,1950,-0.71,6,La Niña activo
+JJA,1950,-0.41,7,
+JAS,1950,-0.24,8,
+ASO,1950,-0.22,9,
+SON,1950,-0.29,10,
+OND,1950,-0.41,11,
+NDJ,1950,-0.56,12,
+DJF,1951,-0.5,1,
+JFM,1951,-0.17,2,
+FMA,1951,0.25,3,
+MAM,1951,0.6,4,El Niño activo
+AMJ,1951,0.64,5,El Niño activo
+MJJ,1951,0.69,6,El Niño activo
+JJA,1951,0.68,7,El Niño activo
+JAS,1951,0.81,8,El Niño activo
+ASO,1951,0.87,9,El Niño activo
+SON,1951,0.98,10,El Niño activo
+OND,1951,0.91,11,El Niño activo
+NDJ,1951,0.8,12,El Niño activo
+DJF,1952,0.58,1,El Niño activo
+JFM,1952,0.44,2,
+FMA,1952,0.42,3,
+MAM,1952,0.44,4,
+AMJ,1952,0.31,5,
+MJJ,1952,0.07,6,
+JJA,1952,-0.04,7,
+JAS,1952,0.03,8,
+ASO,1952,0.13,9,
+SON,1952,0.01,10,
+OND,1952,-0.01,11,
+NDJ,1952,0.2,12,
+DJF,1953,0.53,1,El Niño activo
+JFM,1953,0.76,2,El Niño activo
+FMA,1953,0.77,3,El Niño activo
+MAM,1953,0.83,4,El Niño activo
+AMJ,1953,0.84,5,El Niño activo
+MJJ,1953,0.79,6,El Niño activo
+JJA,1953,0.67,7,El Niño activo
+JAS,1953,0.66,8,El Niño activo
+ASO,1953,0.7,9,El Niño activo
+SON,1953,0.77,10,El Niño activo
+OND,1953,0.81,11,El Niño activo
+NDJ,1953,0.93,12,El Niño activo
+DJF,1954,0.99,1,El Niño activo
+JFM,1954,0.73,2,El Niño activo
+FMA,1954,0.14,3,
+MAM,1954,-0.2,4,
+AMJ,1954,-0.34,5,
+MJJ,1954,-0.26,6,
+JJA,1954,-0.49,7,
+JAS,1954,-0.74,8,
+ASO,1954,-0.85,9,
+SON,1954,-0.7,10,
+OND,1954,-0.56,11,
+NDJ,1954,-0.41,12,
+DJF,1955,-0.38,1,
+JFM,1955,-0.32,2,
+FMA,1955,-0.35,3,
+MAM,1955,-0.39,4,
+AMJ,1955,-0.37,5,
+MJJ,1955,-0.36,6,
+JJA,1955,-0.44,7,
+JAS,1955,-0.61,8,La Niña activo
+ASO,1955,-1.02,9,La Niña activo
+SON,1955,-1.43,10,La Niña activo
+OND,1955,-1.63,11,La Niña activo
+NDJ,1955,-1.27,12,La Niña activo
+DJF,1956,-0.75,1,La Niña activo
+JFM,1956,-0.32,2,
+FMA,1956,-0.2,3,
+MAM,1956,-0.06,4,
+AMJ,1956,-0.05,5,
+MJJ,1956,-0.08,6,
+JJA,1956,-0.28,7,
+JAS,1956,-0.32,8,
+ASO,1956,-0.31,9,
+SON,1956,-0.33,10,
+OND,1956,-0.37,11,
+NDJ,1956,-0.25,12,
+DJF,1957,0.04,1,
+JFM,1957,0.41,2,
+FMA,1957,0.73,3,El Niño activo
+MAM,1957,0.97,4,El Niño activo
+AMJ,1957,1.1,5,El Niño activo
+MJJ,1957,1.18,6,El Niño activo
+JJA,1957,1.23,7,El Niño activo
+JAS,1957,1.26,8,El Niño activo
+ASO,1957,1.23,9,El Niño activo
+SON,1957,1.31,10,El Niño activo
+OND,1957,1.52,11,El Niño activo
+NDJ,1957,1.87,12,El Niño activo
+DJF,1958,2.02,1,El Niño activo
+JFM,1958,1.88,2,El Niño activo
+FMA,1958,1.4,3,El Niño activo
+MAM,1958,1.07,4,El Niño activo
+AMJ,1958,0.83,5,El Niño activo
+MJJ,1958,0.68,6,El Niño activo
+JJA,1958,0.49,7,
+JAS,1958,0.26,8,
+ASO,1958,0.18,9,
+SON,1958,0.25,10,
+OND,1958,0.39,11,
+NDJ,1958,0.68,12,
+DJF,1959,0.77,1,
+JFM,1959,0.84,2,
+FMA,1959,0.66,3,
+MAM,1959,0.44,4,
+AMJ,1959,0.25,5,
+MJJ,1959,-0.06,6,
+JJA,1959,-0.23,7,
+JAS,1959,-0.4,8,
+ASO,1959,-0.29,9,
+SON,1959,-0.26,10,
+OND,1959,-0.11,11,
+NDJ,1959,-0.02,12,
+DJF,1960,0.03,1,
+JFM,1960,0.04,2,
+FMA,1960,0.0,3,
+MAM,1960,0.08,4,
+AMJ,1960,0.06,5,
+MJJ,1960,0.04,6,
+JJA,1960,0.11,7,
+JAS,1960,0.17,8,
+ASO,1960,0.17,9,
+SON,1960,0.07,10,
+OND,1960,0.01,11,
+NDJ,1960,0.02,12,
+DJF,1961,0.05,1,
+JFM,1961,0.06,2,
+FMA,1961,0.03,3,
+MAM,1961,0.1,4,
+AMJ,1961,0.26,5,
+MJJ,1961,0.34,6,
+JJA,1961,0.2,7,
+JAS,1961,-0.09,8,
+ASO,1961,-0.32,9,
+SON,1961,-0.31,10,
+OND,1961,-0.24,11,
+NDJ,1961,-0.12,12,
+DJF,1962,-0.13,1,
+JFM,1962,-0.09,2,
+FMA,1962,-0.11,3,
+MAM,1962,-0.22,4,
+AMJ,1962,-0.26,5,
+MJJ,1962,-0.21,6,
+JJA,1962,-0.11,7,
+JAS,1962,-0.18,8,
+ASO,1962,-0.25,9,
+SON,1962,-0.4,10,
+OND,1962,-0.46,11,
+NDJ,1962,-0.5,12,
+DJF,1963,-0.38,1,
+JFM,1963,-0.1,2,
+FMA,1963,0.17,3,
+MAM,1963,0.24,4,
+AMJ,1963,0.23,5,
+MJJ,1963,0.41,6,
+JJA,1963,0.73,7,El Niño activo
+JAS,1963,0.99,8,El Niño activo
+ASO,1963,1.04,9,El Niño activo
+SON,1963,1.1,10,El Niño activo
+OND,1963,1.22,11,El Niño activo
+NDJ,1963,1.25,12,El Niño activo
+DJF,1964,1.13,1,El Niño activo
+JFM,1964,0.68,2,El Niño activo
+FMA,1964,0.1,3,
+MAM,1964,-0.37,4,
+AMJ,1964,-0.63,5,La Niña activo
+MJJ,1964,-0.59,6,La Niña activo
+JJA,1964,-0.59,7,La Niña activo
+JAS,1964,-0.62,8,La Niña activo
+ASO,1964,-0.72,9,La Niña activo
+SON,1964,-0.76,10,La Niña activo
+OND,1964,-0.7,11,La Niña activo
+NDJ,1964,-0.51,12,La Niña activo
+DJF,1965,-0.25,1,
+JFM,1965,0.07,2,
+FMA,1965,0.15,3,
+MAM,1965,0.37,4,
+AMJ,1965,0.62,5,El Niño activo
+MJJ,1965,1.03,6,El Niño activo
+JJA,1965,1.38,7,El Niño activo
+JAS,1965,1.67,8,El Niño activo
+ASO,1965,1.94,9,El Niño activo
+SON,1965,2.03,10,El Niño activo
+OND,1965,2.04,11,El Niño activo
+NDJ,1965,1.9,12,El Niño activo
+DJF,1966,1.65,1,El Niño activo
+JFM,1966,1.52,2,El Niño activo
+FMA,1966,1.26,3,El Niño activo
+MAM,1966,0.87,4,El Niño activo
+AMJ,1966,0.46,5,
+MJJ,1966,0.29,6,
+JJA,1966,0.27,7,
+JAS,1966,0.13,8,
+ASO,1966,-0.02,9,
+SON,1966,-0.07,10,
+OND,1966,-0.12,11,
+NDJ,1966,-0.17,12,
+DJF,1967,-0.17,1,
+JFM,1967,-0.2,2,
+FMA,1967,-0.39,3,
+MAM,1967,-0.4,4,
+AMJ,1967,-0.19,5,
+MJJ,1967,0.18,6,
+JJA,1967,0.3,7,
+JAS,1967,0.1,8,
+ASO,1967,-0.02,9,
+SON,1967,-0.08,10,
+OND,1967,0.01,11,
+NDJ,1967,-0.02,12,
+DJF,1968,-0.21,1,
+JFM,1968,-0.33,2,
+FMA,1968,-0.31,3,
+MAM,1968,-0.19,4,
+AMJ,1968,0.16,5,
+MJJ,1968,0.45,6,
+JJA,1968,0.69,7,
+JAS,1968,0.58,8,
+ASO,1968,0.45,9,
+SON,1968,0.55,10,El Niño activo
+OND,1968,0.77,11,El Niño activo
+NDJ,1968,1.06,12,El Niño activo
+DJF,1969,1.24,1,El Niño activo
+JFM,1969,1.13,2,El Niño activo
+FMA,1969,0.85,3,El Niño activo
+MAM,1969,0.54,4,El Niño activo
+AMJ,1969,0.35,5,
+MJJ,1969,0.23,6,
+JJA,1969,0.23,7,
+JAS,1969,0.43,8,
+ASO,1969,0.72,9,El Niño activo
+SON,1969,0.78,10,El Niño activo
+OND,1969,0.74,11,El Niño activo
+NDJ,1969,0.57,12,El Niño activo
+DJF,1970,0.51,1,El Niño activo
+JFM,1970,0.31,2,
+FMA,1970,0.25,3,
+MAM,1970,0.11,4,
+AMJ,1970,0.01,5,
+MJJ,1970,-0.29,6,
+JJA,1970,-0.58,7,La Niña activo
+JAS,1970,-0.69,8,La Niña activo
+ASO,1970,-0.69,9,La Niña activo
+SON,1970,-0.63,10,La Niña activo
+OND,1970,-0.7,11,La Niña activo
+NDJ,1970,-0.91,12,La Niña activo
+DJF,1971,-1.03,1,La Niña activo
+JFM,1971,-1.02,2,La Niña activo
+FMA,1971,-0.83,3,La Niña activo
+MAM,1971,-0.6,4,La Niña activo
+AMJ,1971,-0.48,5,
+MJJ,1971,-0.41,6,
+JJA,1971,-0.44,7,
+JAS,1971,-0.44,8,
+ASO,1971,-0.47,9,
+SON,1971,-0.48,10,
+OND,1971,-0.52,11,
+NDJ,1971,-0.47,12,
+DJF,1972,-0.31,1,
+JFM,1972,0.02,2,
+FMA,1972,0.41,3,
+MAM,1972,0.77,4,El Niño activo
+AMJ,1972,0.94,5,El Niño activo
+MJJ,1972,1.12,6,El Niño activo
+JJA,1972,1.27,7,El Niño activo
+JAS,1972,1.49,8,El Niño activo
+ASO,1972,1.7,9,El Niño activo
+SON,1972,1.96,10,El Niño activo
+OND,1972,2.21,11,El Niño activo
+NDJ,1972,2.27,12,El Niño activo
+DJF,1973,2.02,1,El Niño activo
+JFM,1973,1.4,2,El Niño activo
+FMA,1973,0.56,3,El Niño activo
+MAM,1973,-0.25,4,
+AMJ,1973,-0.76,5,La Niña activo
+MJJ,1973,-1.06,6,La Niña activo
+JJA,1973,-1.24,7,La Niña activo
+JAS,1973,-1.4,8,La Niña activo
+ASO,1973,-1.54,9,La Niña activo
+SON,1973,-1.8,10,La Niña activo
+OND,1973,-1.95,11,La Niña activo
+NDJ,1973,-1.88,12,La Niña activo
+DJF,1974,-1.54,1,La Niña activo
+JFM,1974,-1.19,2,La Niña activo
+FMA,1974,-0.95,3,La Niña activo
+MAM,1974,-0.86,4,La Niña activo
+AMJ,1974,-0.79,5,La Niña activo
+MJJ,1974,-0.64,6,La Niña activo
+JJA,1974,-0.37,7,
+JAS,1974,-0.19,8,
+ASO,1974,-0.18,9,
+SON,1974,-0.36,10,
+OND,1974,-0.45,11,
+NDJ,1974,-0.25,12,
+DJF,1975,-0.08,1,
+JFM,1975,-0.13,2,
+FMA,1975,-0.32,3,
+MAM,1975,-0.47,4,
+AMJ,1975,-0.61,5,La Niña activo
+MJJ,1975,-0.78,6,La Niña activo
+JJA,1975,-0.91,7,La Niña activo
+JAS,1975,-0.94,8,La Niña activo
+ASO,1975,-1.05,9,La Niña activo
+SON,1975,-1.03,10,La Niña activo
+OND,1975,-1.08,11,La Niña activo
+NDJ,1975,-1.12,12,La Niña activo
+DJF,1976,-1.03,1,La Niña activo
+JFM,1976,-0.65,2,La Niña activo
+FMA,1976,-0.3,3,
+MAM,1976,-0.11,4,
+AMJ,1976,0.0,5,
+MJJ,1976,0.23,6,
+JJA,1976,0.46,7,
+JAS,1976,0.67,8,El Niño activo
+ASO,1976,0.94,9,El Niño activo
+SON,1976,1.1,10,El Niño activo
+OND,1976,1.13,11,El Niño activo
+NDJ,1976,1.13,12,El Niño activo
+DJF,1977,1.01,1,El Niño activo
+JFM,1977,0.93,2,El Niño activo
+FMA,1977,0.52,3,El Niño activo
+MAM,1977,0.31,4,
+AMJ,1977,0.19,5,
+MJJ,1977,0.35,6,
+JJA,1977,0.42,7,
+JAS,1977,0.58,8,El Niño activo
+ASO,1977,0.78,9,El Niño activo
+SON,1977,0.97,10,El Niño activo
+OND,1977,1.09,11,El Niño activo
+NDJ,1977,1.05,12,El Niño activo
+DJF,1978,0.94,1,El Niño activo
+JFM,1978,0.6,2,El Niño activo
+FMA,1978,0.13,3,
+MAM,1978,-0.18,4,
+AMJ,1978,-0.36,5,
+MJJ,1978,-0.29,6,
+JJA,1978,-0.32,7,
+JAS,1978,-0.28,8,
+ASO,1978,-0.2,9,
+SON,1978,-0.05,10,
+OND,1978,0.15,11,
+NDJ,1978,0.17,12,
+DJF,1979,0.17,1,
+JFM,1979,0.15,2,
+FMA,1979,0.21,3,
+MAM,1979,0.2,4,
+AMJ,1979,0.08,5,
+MJJ,1979,-0.08,6,
+JJA,1979,-0.02,7,
+JAS,1979,0.2,8,
+ASO,1979,0.39,9,
+SON,1979,0.49,10,
+OND,1979,0.54,11,
+NDJ,1979,0.66,12,
+DJF,1980,0.64,1,
+JFM,1980,0.47,2,
+FMA,1980,0.27,3,
+MAM,1980,0.21,4,
+AMJ,1980,0.31,5,
+MJJ,1980,0.33,6,
+JJA,1980,0.19,7,
+JAS,1980,0.01,8,
+ASO,1980,-0.04,9,
+SON,1980,0.06,10,
+OND,1980,0.2,11,
+NDJ,1980,0.17,12,
+DJF,1981,0.01,1,
+JFM,1981,-0.27,2,
+FMA,1981,-0.34,3,
+MAM,1981,-0.34,4,
+AMJ,1981,-0.26,5,
+MJJ,1981,-0.3,6,
+JJA,1981,-0.26,7,
+JAS,1981,-0.18,8,
+ASO,1981,-0.12,9,
+SON,1981,-0.16,10,
+OND,1981,-0.19,11,
+NDJ,1981,0.01,12,
+DJF,1982,0.14,1,
+JFM,1982,0.33,2,
+FMA,1982,0.4,3,
+MAM,1982,0.64,4,El Niño activo
+AMJ,1982,0.77,5,El Niño activo
+MJJ,1982,0.82,6,El Niño activo
+JJA,1982,0.92,7,El Niño activo
+JAS,1982,1.25,8,El Niño activo
+ASO,1982,1.81,9,El Niño activo
+SON,1982,2.21,10,El Niño activo
+OND,1982,2.43,11,El Niño activo
+NDJ,1982,2.52,12,El Niño activo
+DJF,1983,2.49,1,El Niño activo
+JFM,1983,2.2,2,El Niño activo
+FMA,1983,1.71,3,El Niño activo
+MAM,1983,1.37,4,El Niño activo
+AMJ,1983,1.0,5,El Niño activo
+MJJ,1983,0.57,6,El Niño activo
+JJA,1983,0.1,7,
+JAS,1983,-0.24,8,
+ASO,1983,-0.59,9,La Niña activo
+SON,1983,-0.94,10,La Niña activo
+OND,1983,-1.14,11,La Niña activo
+NDJ,1983,-0.96,12,La Niña activo
+DJF,1984,-0.54,1,La Niña activo
+JFM,1984,-0.35,2,
+FMA,1984,-0.35,3,
+MAM,1984,-0.52,4,
+AMJ,1984,-0.57,5,
+MJJ,1984,-0.43,6,
+JJA,1984,-0.23,7,
+JAS,1984,-0.07,8,
+ASO,1984,-0.15,9,
+SON,1984,-0.51,10,La Niña activo
+OND,1984,-0.83,11,La Niña activo
+NDJ,1984,-1.0,12,La Niña activo
+DJF,1985,-0.82,1,La Niña activo
+JFM,1985,-0.6,2,La Niña activo
+FMA,1985,-0.61,3,La Niña activo
+MAM,1985,-0.69,4,La Niña activo
+AMJ,1985,-0.72,5,La Niña activo
+MJJ,1985,-0.54,6,La Niña activo
+JJA,1985,-0.36,7,
+JAS,1985,-0.31,8,
+ASO,1985,-0.22,9,
+SON,1985,-0.18,10,
+OND,1985,-0.09,11,
+NDJ,1985,-0.17,12,
+DJF,1986,-0.34,1,
+JFM,1986,-0.33,2,
+FMA,1986,-0.21,3,
+MAM,1986,-0.12,4,
+AMJ,1986,-0.1,5,
+MJJ,1986,-0.06,6,
+JJA,1986,0.26,7,
+JAS,1986,0.58,8,El Niño activo
+ASO,1986,0.91,9,El Niño activo
+SON,1986,1.15,10,El Niño activo
+OND,1986,1.36,11,El Niño activo
+NDJ,1986,1.49,12,El Niño activo
+DJF,1987,1.56,1,El Niño activo
+JFM,1987,1.48,2,El Niño activo
+FMA,1987,1.26,3,El Niño activo
+MAM,1987,0.97,4,El Niño activo
+AMJ,1987,0.89,5,El Niño activo
+MJJ,1987,1.05,6,El Niño activo
+JJA,1987,1.34,7,El Niño activo
+JAS,1987,1.55,8,El Niño activo
+ASO,1987,1.48,9,El Niño activo
+SON,1987,1.27,10,El Niño activo
+OND,1987,1.02,11,El Niño activo
+NDJ,1987,0.92,12,El Niño activo
+DJF,1988,0.65,1,El Niño activo
+JFM,1988,0.3,2,
+FMA,1988,-0.21,3,
+MAM,1988,-0.75,4,La Niña activo
+AMJ,1988,-1.37,5,La Niña activo
+MJJ,1988,-1.75,6,La Niña activo
+JJA,1988,-1.64,7,La Niña activo
+JAS,1988,-1.32,8,La Niña activo
+ASO,1988,-1.36,9,La Niña activo
+SON,1988,-1.63,10,La Niña activo
+OND,1988,-1.94,11,La Niña activo
+NDJ,1988,-1.92,12,La Niña activo
+DJF,1989,-1.7,1,La Niña activo
+JFM,1989,-1.42,2,La Niña activo
+FMA,1989,-1.1,3,La Niña activo
+MAM,1989,-0.85,4,La Niña activo
+AMJ,1989,-0.6,5,La Niña activo
+MJJ,1989,-0.43,6,
+JJA,1989,-0.35,7,
+JAS,1989,-0.3,8,
+ASO,1989,-0.24,9,
+SON,1989,-0.22,10,
+OND,1989,-0.15,11,
+NDJ,1989,0.03,12,
+DJF,1990,0.24,1,
+JFM,1990,0.29,2,
+FMA,1990,0.27,3,
+MAM,1990,0.25,4,
+AMJ,1990,0.21,5,
+MJJ,1990,0.22,6,
+JJA,1990,0.27,7,
+JAS,1990,0.37,8,
+ASO,1990,0.4,9,
+SON,1990,0.35,10,
+OND,1990,0.39,11,
+NDJ,1990,0.5,12,
+DJF,1991,0.6,1,
+JFM,1991,0.5,2,
+FMA,1991,0.4,3,
+MAM,1991,0.35,4,
+AMJ,1991,0.5,5,El Niño activo
+MJJ,1991,0.67,6,El Niño activo
+JJA,1991,0.81,7,El Niño activo
+JAS,1991,0.8,8,El Niño activo
+ASO,1991,0.91,9,El Niño activo
+SON,1991,1.17,10,El Niño activo
+OND,1991,1.7,11,El Niño activo
+NDJ,1991,2.08,12,El Niño activo
+DJF,1992,2.32,1,El Niño activo
+JFM,1992,2.24,2,El Niño activo
+FMA,1992,2.04,3,El Niño activo
+MAM,1992,1.73,4,El Niño activo
+AMJ,1992,1.35,5,El Niño activo
+MJJ,1992,0.9,6,El Niño activo
+JJA,1992,0.54,7,El Niño activo
+JAS,1992,0.32,8,
+ASO,1992,0.15,9,
+SON,1992,0.07,10,
+OND,1992,0.08,11,
+NDJ,1992,0.26,12,
+DJF,1993,0.5,1,El Niño activo
+JFM,1993,0.69,2,El Niño activo
+FMA,1993,0.87,3,El Niño activo
+MAM,1993,0.97,4,El Niño activo
+AMJ,1993,0.9,5,El Niño activo
+MJJ,1993,0.72,6,El Niño activo
+JJA,1993,0.49,7,
+JAS,1993,0.51,8,
+ASO,1993,0.46,9,
+SON,1993,0.36,10,
+OND,1993,0.28,11,
+NDJ,1993,0.27,12,
+DJF,1994,0.32,1,
+JFM,1994,0.33,2,
+FMA,1994,0.43,3,
+MAM,1994,0.54,4,El Niño activo
+AMJ,1994,0.64,5,El Niño activo
+MJJ,1994,0.64,6,El Niño activo
+JJA,1994,0.74,7,El Niño activo
+JAS,1994,0.81,8,El Niño activo
+ASO,1994,0.95,9,El Niño activo
+SON,1994,1.11,10,El Niño activo
+OND,1994,1.34,11,El Niño activo
+NDJ,1994,1.43,12,El Niño activo
+DJF,1995,1.27,1,El Niño activo
+JFM,1995,0.95,2,El Niño activo
+FMA,1995,0.68,3,El Niño activo
+MAM,1995,0.37,4,
+AMJ,1995,0.1,5,
+MJJ,1995,-0.13,6,
+JJA,1995,-0.32,7,
+JAS,1995,-0.53,8,La Niña activo
+ASO,1995,-0.74,9,La Niña activo
+SON,1995,-0.91,10,La Niña activo
+OND,1995,-0.95,11,La Niña activo
+NDJ,1995,-0.94,12,La Niña activo
+DJF,1996,-0.87,1,La Niña activo
+JFM,1996,-0.77,2,La Niña activo
+FMA,1996,-0.62,3,La Niña activo
+MAM,1996,-0.39,4,
+AMJ,1996,-0.3,5,
+MJJ,1996,-0.29,6,
+JJA,1996,-0.24,7,
+JAS,1996,-0.24,8,
+ASO,1996,-0.23,9,
+SON,1996,-0.27,10,
+OND,1996,-0.3,11,
+NDJ,1996,-0.29,12,
+DJF,1997,-0.25,1,
+JFM,1997,-0.1,2,
+FMA,1997,0.17,3,
+MAM,1997,0.52,4,El Niño activo
+AMJ,1997,0.95,5,El Niño activo
+MJJ,1997,1.34,6,El Niño activo
+JJA,1997,1.69,7,El Niño activo
+JAS,1997,2.01,8,El Niño activo
+ASO,1997,2.25,9,El Niño activo
+SON,1997,2.38,10,El Niño activo
+OND,1997,2.36,11,El Niño activo
+NDJ,1997,2.34,12,El Niño activo
+DJF,1998,2.16,1,El Niño activo
+JFM,1998,1.82,2,El Niño activo
+FMA,1998,1.25,3,El Niño activo
+MAM,1998,0.77,4,El Niño activo
+AMJ,1998,0.14,5,
+MJJ,1998,-0.5,6,La Niña activo
+JJA,1998,-1.17,7,La Niña activo
+JAS,1998,-1.41,8,La Niña activo
+ASO,1998,-1.52,9,La Niña activo
+SON,1998,-1.52,10,La Niña activo
+OND,1998,-1.63,11,La Niña activo
+NDJ,1998,-1.65,12,La Niña activo
+DJF,1999,-1.55,1,La Niña activo
+JFM,1999,-1.28,2,La Niña activo
+FMA,1999,-1.09,3,La Niña activo
+MAM,1999,-1.0,4,La Niña activo
+AMJ,1999,-1.01,5,La Niña activo
+MJJ,1999,-0.99,6,La Niña activo
+JJA,1999,-0.99,7,La Niña activo
+JAS,1999,-0.96,8,La Niña activo
+ASO,1999,-0.97,9,La Niña activo
+SON,1999,-1.11,10,La Niña activo
+OND,1999,-1.38,11,La Niña activo
+NDJ,1999,-1.62,12,La Niña activo
+DJF,2000,-1.67,1,La Niña activo
+JFM,2000,-1.4,2,La Niña activo
+FMA,2000,-1.09,3,La Niña activo
+MAM,2000,-0.78,4,La Niña activo
+AMJ,2000,-0.63,5,La Niña activo
+MJJ,2000,-0.5,6,La Niña activo
+JJA,2000,-0.38,7,
+JAS,2000,-0.37,8,
+ASO,2000,-0.45,9,
+SON,2000,-0.58,10,La Niña activo
+OND,2000,-0.69,11,La Niña activo
+NDJ,2000,-0.68,12,La Niña activo
+DJF,2001,-0.63,1,La Niña activo
+JFM,2001,-0.55,2,La Niña activo
+FMA,2001,-0.53,3,La Niña activo
+MAM,2001,-0.46,4,
+AMJ,2001,-0.34,5,
+MJJ,2001,-0.13,6,
+JJA,2001,-0.01,7,
+JAS,2001,0.0,8,
+ASO,2001,-0.05,9,
+SON,2001,-0.17,10,
+OND,2001,-0.25,11,
+NDJ,2001,-0.27,12,
+DJF,2002,-0.14,1,
+JFM,2002,-0.03,2,
+FMA,2002,0.01,3,
+MAM,2002,0.11,4,
+AMJ,2002,0.37,5,
+MJJ,2002,0.66,6,El Niño activo
+JJA,2002,0.9,7,El Niño activo
+JAS,2002,1.08,8,El Niño activo
+ASO,2002,1.26,9,El Niño activo
+SON,2002,1.44,10,El Niño activo
+OND,2002,1.47,11,El Niño activo
+NDJ,2002,1.19,12,El Niño activo
+DJF,2003,0.85,1,El Niño activo
+JFM,2003,0.49,2,
+FMA,2003,0.22,3,
+MAM,2003,-0.23,4,
+AMJ,2003,-0.43,5,
+MJJ,2003,-0.29,6,
+JJA,2003,0.01,7,
+JAS,2003,0.16,8,
+ASO,2003,0.19,9,
+SON,2003,0.22,10,
+OND,2003,0.32,11,
+NDJ,2003,0.29,12,
+DJF,2004,0.25,1,
+JFM,2004,0.14,2,
+FMA,2004,0.11,3,
+MAM,2004,0.16,4,
+AMJ,2004,0.25,5,
+MJJ,2004,0.45,6,
+JJA,2004,0.66,7,El Niño activo
+JAS,2004,0.82,8,El Niño activo
+ASO,2004,0.86,9,El Niño activo
+SON,2004,0.77,10,El Niño activo
+OND,2004,0.73,11,El Niño activo
+NDJ,2004,0.67,12,El Niño activo
+DJF,2005,0.55,1,El Niño activo
+JFM,2005,0.43,2,
+FMA,2005,0.31,3,
+MAM,2005,0.31,4,
+AMJ,2005,0.2,5,
+MJJ,2005,0.03,6,
+JJA,2005,-0.1,7,
+JAS,2005,-0.12,8,
+ASO,2005,-0.02,9,
+SON,2005,-0.18,10,
+OND,2005,-0.5,11,La Niña activo
+NDJ,2005,-0.85,12,La Niña activo
+DJF,2006,-0.93,1,La Niña activo
+JFM,2006,-0.88,2,La Niña activo
+FMA,2006,-0.65,3,La Niña activo
+MAM,2006,-0.42,4,
+AMJ,2006,-0.14,5,
+MJJ,2006,-0.03,6,
+JJA,2006,0.11,7,
+JAS,2006,0.31,8,
+ASO,2006,0.54,9,El Niño activo
+SON,2006,0.75,10,El Niño activo
+OND,2006,0.94,11,El Niño activo
+NDJ,2006,0.92,12,El Niño activo
+DJF,2007,0.6,1,El Niño activo
+JFM,2007,0.16,2,
+FMA,2007,-0.18,3,
+MAM,2007,-0.36,4,
+AMJ,2007,-0.44,5,
+MJJ,2007,-0.53,6,La Niña activo
+JJA,2007,-0.59,7,La Niña activo
+JAS,2007,-0.81,8,La Niña activo
+ASO,2007,-1.05,9,La Niña activo
+SON,2007,-1.29,10,La Niña activo
+OND,2007,-1.41,11,La Niña activo
+NDJ,2007,-1.51,12,La Niña activo
+DJF,2008,-1.6,1,La Niña activo
+JFM,2008,-1.49,2,La Niña activo
+FMA,2008,-1.26,3,La Niña activo
+MAM,2008,-0.95,4,La Niña activo
+AMJ,2008,-0.76,5,La Niña activo
+MJJ,2008,-0.5,6,La Niña activo
+JJA,2008,-0.29,7,
+JAS,2008,-0.21,8,
+ASO,2008,-0.28,9,
+SON,2008,-0.4,10,
+OND,2008,-0.6,11,La Niña activo
+NDJ,2008,-0.79,12,La Niña activo
+DJF,2009,-0.9,1,La Niña activo
+JFM,2009,-0.85,2,La Niña activo
+FMA,2009,-0.67,3,La Niña activo
+MAM,2009,-0.42,4,
+AMJ,2009,-0.11,5,
+MJJ,2009,0.13,6,
+JJA,2009,0.25,7,
+JAS,2009,0.39,8,
+ASO,2009,0.56,9,El Niño activo
+SON,2009,0.94,10,El Niño activo
+OND,2009,1.34,11,El Niño activo
+NDJ,2009,1.56,12,El Niño activo
+DJF,2010,1.45,1,El Niño activo
+JFM,2010,1.11,2,El Niño activo
+FMA,2010,0.64,3,El Niño activo
+MAM,2010,0.05,4,
+AMJ,2010,-0.53,5,La Niña activo
+MJJ,2010,-0.99,6,La Niña activo
+JJA,2010,-1.28,7,La Niña activo
+JAS,2010,-1.51,8,La Niña activo
+ASO,2010,-1.68,9,La Niña activo
+SON,2010,-1.74,10,La Niña activo
+OND,2010,-1.72,11,La Niña activo
+NDJ,2010,-1.63,12,La Niña activo
+DJF,2011,-1.43,1,La Niña activo
+JFM,2011,-1.19,2,La Niña activo
+FMA,2011,-0.92,3,La Niña activo
+MAM,2011,-0.69,4,La Niña activo
+AMJ,2011,-0.48,5,
+MJJ,2011,-0.34,6,
+JJA,2011,-0.38,7,
+JAS,2011,-0.51,8,La Niña activo
+ASO,2011,-0.74,9,La Niña activo
+SON,2011,-0.94,10,La Niña activo
+OND,2011,-1.05,11,La Niña activo
+NDJ,2011,-0.99,12,La Niña activo
+DJF,2012,-0.82,1,La Niña activo
+JFM,2012,-0.65,2,La Niña activo
+FMA,2012,-0.56,3,La Niña activo
+MAM,2012,-0.47,4,
+AMJ,2012,-0.27,5,
+MJJ,2012,0.03,6,
+JJA,2012,0.34,7,
+JAS,2012,0.43,8,
+ASO,2012,0.4,9,
+SON,2012,0.23,10,
+OND,2012,-0.06,11,
+NDJ,2012,-0.38,12,
+DJF,2013,-0.63,1,
+JFM,2013,-0.6,2,
+FMA,2013,-0.5,3,
+MAM,2013,-0.43,4,
+AMJ,2013,-0.44,5,
+MJJ,2013,-0.43,6,
+JJA,2013,-0.38,7,
+JAS,2013,-0.32,8,
+ASO,2013,-0.28,9,
+SON,2013,-0.22,10,
+OND,2013,-0.22,11,
+NDJ,2013,-0.33,12,
+DJF,2014,-0.49,1,
+JFM,2014,-0.53,2,
+FMA,2014,-0.33,3,
+MAM,2014,-0.05,4,
+AMJ,2014,0.07,5,
+MJJ,2014,-0.01,6,
+JJA,2014,-0.13,7,
+JAS,2014,-0.09,8,
+ASO,2014,0.08,9,
+SON,2014,0.36,10,
+OND,2014,0.52,11,
+NDJ,2014,0.56,12,
+DJF,2015,0.45,1,
+JFM,2015,0.38,2,
+FMA,2015,0.45,3,
+MAM,2015,0.61,4,El Niño activo
+AMJ,2015,0.82,5,El Niño activo
+MJJ,2015,1.03,6,El Niño activo
+JJA,2015,1.33,7,El Niño activo
+JAS,2015,1.64,8,El Niño activo
+ASO,2015,1.93,9,El Niño activo
+SON,2015,2.18,10,El Niño activo
+OND,2015,2.34,11,El Niño activo
+NDJ,2015,2.37,12,El Niño activo
+DJF,2016,2.22,1,El Niño activo
+JFM,2016,1.84,2,El Niño activo
+FMA,2016,1.28,3,El Niño activo
+MAM,2016,0.54,4,El Niño activo
+AMJ,2016,-0.06,5,
+MJJ,2016,-0.56,6,La Niña activo
+JJA,2016,-0.86,7,La Niña activo
+JAS,2016,-1.0,8,La Niña activo
+ASO,2016,-1.07,9,La Niña activo
+SON,2016,-1.11,10,La Niña activo
+OND,2016,-1.08,11,La Niña activo
+NDJ,2016,-0.99,12,La Niña activo
+DJF,2017,-0.74,1,La Niña activo
+JFM,2017,-0.54,2,La Niña activo
+FMA,2017,-0.27,3,
+MAM,2017,-0.09,4,
+AMJ,2017,0.05,5,
+MJJ,2017,0.05,6,
+JJA,2017,-0.17,7,
+JAS,2017,-0.46,8,
+ASO,2017,-0.73,9,La Niña activo
+SON,2017,-0.99,10,La Niña activo
+OND,2017,-1.15,11,La Niña activo
+NDJ,2017,-1.26,12,La Niña activo
+DJF,2018,-1.12,1,La Niña activo
+JFM,2018,-1.04,2,La Niña activo
+FMA,2018,-0.88,3,La Niña activo
+MAM,2018,-0.67,4,La Niña activo
+AMJ,2018,-0.31,5,
+MJJ,2018,-0.04,6,
+JJA,2018,0.05,7,
+JAS,2018,0.16,8,
+ASO,2018,0.4,9,
+SON,2018,0.65,10,El Niño activo
+OND,2018,0.77,11,El Niño activo
+NDJ,2018,0.67,12,El Niño activo
+DJF,2019,0.62,1,El Niño activo
+JFM,2019,0.62,2,El Niño activo
+FMA,2019,0.6,3,El Niño activo
+MAM,2019,0.52,4,El Niño activo
+AMJ,2019,0.34,5,
+MJJ,2019,0.21,6,
+JJA,2019,0.03,7,
+JAS,2019,-0.1,8,
+ASO,2019,-0.03,9,
+SON,2019,0.12,10,
+OND,2019,0.23,11,
+NDJ,2019,0.2,12,
+DJF,2020,0.11,1,
+JFM,2020,0.08,2,
+FMA,2020,-0.03,3,
+MAM,2020,-0.28,4,
+AMJ,2020,-0.56,5,La Niña activo
+MJJ,2020,-0.76,6,La Niña activo
+JJA,2020,-0.81,7,La Niña activo
+JAS,2020,-0.93,8,La Niña activo
+ASO,2020,-1.23,9,La Niña activo
+SON,2020,-1.47,10,La Niña activo
+OND,2020,-1.54,11,La Niña activo
+NDJ,2020,-1.37,12,La Niña activo
+DJF,2021,-1.18,1,La Niña activo
+JFM,2021,-1.04,2,La Niña activo
+FMA,2021,-0.98,3,La Niña activo
+MAM,2021,-0.79,4,La Niña activo
+AMJ,2021,-0.61,5,La Niña activo
+MJJ,2021,-0.52,6,La Niña activo
+JJA,2021,-0.59,7,La Niña activo
+JAS,2021,-0.72,8,La Niña activo
+ASO,2021,-0.92,9,La Niña activo
+SON,2021,-1.06,10,La Niña activo
+OND,2021,-1.23,11,La Niña activo
+NDJ,2021,-1.24,12,La Niña activo
+DJF,2022,-1.22,1,La Niña activo
+JFM,2022,-1.22,2,La Niña activo
+FMA,2022,-1.28,3,La Niña activo
+MAM,2022,-1.34,4,La Niña activo
+AMJ,2022,-1.22,5,La Niña activo
+MJJ,2022,-0.99,6,La Niña activo
+JJA,2022,-0.91,7,La Niña activo
+JAS,2022,-1.01,8,La Niña activo
+ASO,2022,-1.14,9,La Niña activo
+SON,2022,-1.12,10,La Niña activo
+OND,2022,-1.05,11,La Niña activo
+NDJ,2022,-0.97,12,La Niña activo
+DJF,2023,-0.83,1,La Niña activo
+JFM,2023,-0.62,2,La Niña activo
+FMA,2023,-0.44,3,
+MAM,2023,-0.21,4,
+AMJ,2023,0.07,5,
+MJJ,2023,0.37,6,
+JJA,2023,0.62,7,El Niño activo
+JAS,2023,0.85,8,El Niño activo
+ASO,2023,1.1,9,El Niño activo
+SON,2023,1.35,10,El Niño activo
+OND,2023,1.49,11,El Niño activo
+NDJ,2023,1.45,12,El Niño activo
+DJF,2024,1.2,1,El Niño activo
+JFM,2024,0.85,2,El Niño activo
+FMA,2024,0.49,3,
+MAM,2024,0.05,4,
+AMJ,2024,-0.26,5,
+MJJ,2024,-0.46,6,
+JJA,2024,-0.51,7,La Niña activo
+JAS,2024,-0.64,8,La Niña activo
+ASO,2024,-0.76,9,La Niña activo
+SON,2024,-0.82,10,La Niña activo
+OND,2024,-0.94,11,La Niña activo
+NDJ,2024,-1.08,12,La Niña activo
+DJF,2025,-1.13,1,La Niña activo
+JFM,2025,-0.9,2,La Niña activo
+FMA,2025,-0.67,3,La Niña activo
+MAM,2025,-0.52,4,La Niña activo
+AMJ,2025,-0.49,5,
+MJJ,2025,-0.43,6,
+JJA,2025,-0.47,7,
+JAS,2025,-0.63,8,La Niña activo
+ASO,2025,-0.77,9,La Niña activo
+SON,2025,-0.87,10,La Niña activo
+OND,2025,-0.93,11,La Niña activo
+NDJ,2025,-0.97,12,La Niña activo
+DJF,2026,-0.88,1,La Niña activo
+JFM,2026,-0.71,2,La Niña activo
+FMA,2026,-0.45,3,
+MAM,2026,-0.04,4,
+AMJ,2026,0.47,5,
