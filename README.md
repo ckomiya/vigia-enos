@@ -3,6 +3,8 @@
 Dashboard en Dash que muestra la evolución del ICEN y el RONI, con KPIs
 de estado actual (Neutro / El Niño / La Niña).
 
+**Demo:** https://vigia-enos.onrender.com/
+
 ## ¿Qué es?
 
 - **ICEN** (Índice Costero El Niño): mide la anomalía de temperatura
