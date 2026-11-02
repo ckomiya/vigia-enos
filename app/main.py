@@ -411,6 +411,7 @@ app.index_string = """<!DOCTYPE html>
             {%scripts%}
             {%renderer%}
         </footer>
+        <!-- Cloudflare Web Analytics --><script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "5f64602584e745e18922a5d892e598c8"}'></script><!-- End Cloudflare Web Analytics -->
     </body>
 </html>"""
 
