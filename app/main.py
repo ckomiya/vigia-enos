@@ -4,17 +4,16 @@ Página única: serie temporal de ICEN + RONI con líneas de umbral, y un
 KPI tipo semáforo con el estado puntual más reciente de cada índice.
 """
 import sys
-from datetime import datetime
 from pathlib import Path
 
 import pandas as pd
 import plotly.graph_objects as go
-from dash import Dash, Input, Output, dcc, html
+from dash import Dash, Input, Output, dcc, html, no_update
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(BASE_DIR))
 
-from etl import fetch_icen, fetch_roni  # noqa: E402
+from etl import freshness  # noqa: E402
 from etl.transform import (  # noqa: E402
     ICEN_CALIDA_DEBIL_THRESHOLD,
     ICEN_FRIA_THRESHOLD,
@@ -24,7 +23,6 @@ from etl.transform import (  # noqa: E402
     categorize_icen,
     categorize_roni,
 )
-from etl import transform  # noqa: E402
 
 MERGED_PATH = BASE_DIR / "data" / "processed" / "merged.csv"
 
@@ -56,13 +54,17 @@ SEMAFORO_COLOR = {
 
 
 def get_last_update_label() -> str:
-    """Deriva el texto de última actualización del mtime de merged.csv, para
-    que sobreviva a un reinicio del servidor (no depende de estado en memoria
-    del callback)."""
+    """Texto de estado: última verificación contra las fuentes (si ya ocurrió
+    en este proceso) y último mes con dato ICEN en merged.csv."""
     if not MERGED_PATH.exists():
         return "Sin datos aún"
-    mtime = datetime.fromtimestamp(MERGED_PATH.stat().st_mtime)
-    return f"Última actualización: {mtime.strftime('%d/%m/%Y %H:%M:%S')}"
+    df = load_data()
+    last = df.dropna(subset=["icen"]).iloc[-1]["date"]
+    ultimo_dato = f"último dato ICEN: {last.strftime('%m/%Y')}"
+    checked = freshness.get_last_check_at()
+    if checked is None:
+        return f"Verificando fuentes… · {ultimo_dato}"
+    return f"Verificado {checked.strftime('%d/%m/%Y %H:%M')} · {ultimo_dato}"
 
 
 def load_data() -> pd.DataFrame:
@@ -277,12 +279,6 @@ def build_dashboard_content(df: pd.DataFrame) -> list:
     ]
 
 
-def run_etl_pipeline() -> None:
-    fetch_icen.main()
-    fetch_roni.main()
-    transform.main()
-
-
 def build_layout() -> html.Div:
     return html.Div(
         style={
@@ -345,9 +341,8 @@ verse fuerte en RONI pero débil en ICEN, o viceversa.
                     html.Div(
                         style={"display": "flex", "alignItems": "center", "gap": "12px", "marginBottom": "8px"},
                         children=[
-                            html.Button(
-                                "Actualizar datos", id="actualizar-btn", n_clicks=0,
-                                className="btn-actualizar",
+                            dcc.Interval(
+                                id="verificar-fuentes", interval=500, max_intervals=1,
                             ),
                             html.Span(
                                 get_last_update_label(), id="ultima-actualizacion",
@@ -407,20 +402,6 @@ app.index_string = """<!DOCTYPE html>
                 margin: 0;
                 background-color: """ + COLOR_BG + """;
             }
-            .btn-actualizar {
-                background-color: """ + COLOR_PANEL + """;
-                border: 1px solid """ + COLOR_COLD + """;
-                color: """ + COLOR_TEXT + """;
-                font-family: 'Space Grotesk', sans-serif;
-                font-weight: 500;
-                padding: 10px 18px;
-                border-radius: 4px;
-                cursor: pointer;
-                transition: background-color 0.15s ease;
-            }
-            .btn-actualizar:hover {
-                background-color: """ + COLOR_GRID + """;
-            }
         </style>
     </head>
     <body>
@@ -439,18 +420,18 @@ app.layout = build_layout()
 @app.callback(
     Output("dashboard-content", "children"),
     Output("ultima-actualizacion", "children"),
-    Input("actualizar-btn", "n_clicks"),
-    prevent_initial_call=True,
+    Input("verificar-fuentes", "n_intervals"),
 )
-def actualizar_datos(n_clicks):
+def verificar_y_actualizar(n_intervals):
+    """Se dispara una vez al cargar la página: consulta las fuentes y solo
+    redibuja el dashboard si hubo datos nuevos."""
     try:
-        run_etl_pipeline()
-        df = load_data()
-        return build_dashboard_content(df), get_last_update_label()
+        estado = freshness.check_and_update()
     except Exception as exc:
-        df = load_data()
-        mensaje = f"Error al actualizar ({exc}). Mostrando últimos datos disponibles."
-        return build_dashboard_content(df), mensaje
+        return no_update, f"Error al verificar fuentes ({exc}). Mostrando últimos datos disponibles."
+    if estado == freshness.ACTUALIZADO:
+        return build_dashboard_content(load_data()), get_last_update_label()
+    return no_update, get_last_update_label()
 
 
 if __name__ == "__main__":
