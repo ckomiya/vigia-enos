@@ -9,6 +9,7 @@ from pathlib import Path
 import pandas as pd
 import plotly.graph_objects as go
 from dash import Dash, Input, Output, dcc, html, no_update
+from flask import Response
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(BASE_DIR))
@@ -383,15 +384,49 @@ verse fuerte en RONI pero débil en ICEN, o viceversa.
     )
 
 
+SITE_URL = "https://vigia-enos.onrender.com/"
+SITE_TITLE = "Vigía ENOS — Monitoreo de El Niño y La Niña (ICEN y RONI)"
+SITE_DESCRIPTION = (
+    "Estado actual y evolución histórica de El Niño / La Niña en Perú y el "
+    "Pacífico: índices ICEN (IGP) y RONI (NOAA CPC), actualizados automáticamente."
+)
+
 app = Dash(__name__)
-app.title = "Vigía ENOS"
+app.title = SITE_TITLE
 server = app.server
 
+
+@server.route("/robots.txt")
+def robots_txt():
+    return Response(
+        f"User-agent: *\nAllow: /\n\nSitemap: {SITE_URL}sitemap.xml\n",
+        mimetype="text/plain",
+    )
+
+
+@server.route("/sitemap.xml")
+def sitemap_xml():
+    xml = (
+        '<?xml version="1.0" encoding="UTF-8"?>\n'
+        '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+        f"  <url><loc>{SITE_URL}</loc><changefreq>weekly</changefreq></url>\n"
+        "</urlset>\n"
+    )
+    return Response(xml, mimetype="application/xml")
+
+
 app.index_string = """<!DOCTYPE html>
-<html>
+<html lang="es">
     <head>
         {%metas%}
         <title>{%title%}</title>
+        <meta name="description" content=\"""" + SITE_DESCRIPTION + """\">
+        <link rel="canonical" href=\"""" + SITE_URL + """\">
+        <meta property="og:type" content="website">
+        <meta property="og:title" content=\"""" + SITE_TITLE + """\">
+        <meta property="og:description" content=\"""" + SITE_DESCRIPTION + """\">
+        <meta property="og:url" content=\"""" + SITE_URL + """\">
+        <meta property="og:locale" content="es_PE">
         {%favicon%}
         {%css%}
         <link rel="preconnect" href="https://fonts.googleapis.com">
