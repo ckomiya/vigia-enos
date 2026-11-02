@@ -421,6 +421,7 @@ app.index_string = """<!DOCTYPE html>
         {%metas%}
         <title>{%title%}</title>
         <meta name="description" content=\"""" + SITE_DESCRIPTION + """\">
+        <meta name="google-site-verification" content="hwuceFjNPRX-EPy8efmWUcQ569W8QRy_Sl9Xw2PHTe8" />
         <link rel="canonical" href=\"""" + SITE_URL + """\">
         <meta property="og:type" content="website">
         <meta property="og:title" content=\"""" + SITE_TITLE + """\">
